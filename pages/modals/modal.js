@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import Head from 'next/head';
+import Swiper from './swiper'
 const customStyles = {
   content : {
     top                   : '50%',
@@ -34,6 +35,7 @@ class ModalWindow extends React.Component {
         <Head>
             <link rel="stylesheet" href="/css/modal.css" />
         </Head>
+
         <button onClick={this.openModal} className="btn">スライドで確認</button>
         <Modal
           isOpen={this.state.modalIsOpen}
@@ -43,10 +45,13 @@ class ModalWindow extends React.Component {
           contentLabel="CSS Modal"
         >
           {/* 引数が一つの場合、アロー関数を省略 */}
-          <div className="modal">
+          {/* <div className="modal">
             <img src="images/css_slides_01.jpeg" alt="slide01"/>
             <button onClick={this.closeModal} className="btn">閉じる</button>
-            </div>
+          </div> */}
+          <Swiper></Swiper>
+
+
         </Modal>
       </div>
     );

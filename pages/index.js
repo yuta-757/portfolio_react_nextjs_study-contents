@@ -100,13 +100,7 @@ class Divider extends React.Component{
               React　×　Next.js<br/><Link href="/posts/signup"><a>Let's signup!</a></Link>
             </h1>
             {/* <form onSubmit={this.submitHandler}> */}
-            <form>
-              <input
-                type="text"
-                value={this.state.input}
-                // onChange={this.handleChange}
-              />
-            </form>
+            
     
             
           </main>
