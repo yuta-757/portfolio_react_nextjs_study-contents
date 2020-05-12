@@ -97,21 +97,17 @@ class Divider extends React.Component{
     
           <main>
             <h1 className="title">
-              React　×　Next.js<br/><Link href="/posts/signup"><a>Let's signup!</a></Link>
+              CSSの詳細度<br/>
+              <Link href="/posts/signup"><a>困ったらこちら！</a></Link>
             </h1>
             {/* <form onSubmit={this.submitHandler}> */}
-            <form>
-              <input
-                type="text"
-                value={this.state.input}
-                // onChange={this.handleChange}
-              />
-            </form>
+          
+            
     
             
           </main>
           <Modal></Modal>
-              
+          <p>(created by React　×　Next.js　×　MySQL)</p>
           <style jsx>{`      
           `}</style>
         </div>
