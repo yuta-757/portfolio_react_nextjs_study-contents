@@ -100,9 +100,7 @@ class Divider extends React.Component{
               CSSの詳細度<br/>
               <Link href="/posts/signup"><a>困ったらこちら！</a></Link>
             </h1>
-            {/* <form onSubmit={this.submitHandler}> */}
-          
-            
+            {/* <form onSubmit={this.submitHandler}> */}            
     
             
           </main>
